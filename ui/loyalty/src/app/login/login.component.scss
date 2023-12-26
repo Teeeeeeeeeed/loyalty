@@ -1,0 +1,23 @@
+.socials {
+    display:flex;
+    flex-direction: row;
+    > *{
+        margin:0.25em;
+    }
+
+    .facebook {
+        --mdc-fab-container-color:rgb(71, 71, 255);
+    }
+    
+    .wechat {
+        --mdc-fab-container-color:rgb(44, 187, 0);
+    }
+
+    .google {
+        --mdc-fab-container-color:rgb(241, 241, 241);
+    }
+
+    .whatsapp {
+        --mdc-fab-container-color:rgb(69,211,84);
+    }
+}
